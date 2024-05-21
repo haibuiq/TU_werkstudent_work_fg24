@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <!-- SET YOUR JAR FILE DIRECTORY HERE -->
+  <jar>C:\Git\FG24\source\target\FolienGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar</jar>
+  <!--  SET YOUR OUTPUT DIRECTORY HERE -->
+  <outfile>C:\Users\Amar Ademi\Desktop\test.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+<!--  SET YOUR ICON DIRECTORY HERE-->
+  <icon>C:\Git\FG24\source\resources\FG24Logo.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

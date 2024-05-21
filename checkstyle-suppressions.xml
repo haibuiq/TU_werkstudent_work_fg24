@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+ 
+<!DOCTYPE suppressions PUBLIC
+     "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
+     "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+ 
+<suppressions>
+     <!-- DON'T CHECK CONSTANTS OR TEST FILES -->
+  <suppress checks="."
+             files="tud[\\/]bp[\\/]group32[\\/]constants[\\/]|Test.java" />
+     <!-- DON'T CHECK VARIABLE NAME, JAVADOC AND VISIBILITY MODIFIER FOR DYNAMIC PROPERTIES -->
+  <suppress checks="VariableName|Javadoc*|VisibilityModifier|MethodLength"
+             files="DynamicProperties.java" />
+     <!-- DON'T CHECK PARAMETER NUMBER FOR STUDENT CONSTRUCTORS -->
+  <suppress checks="ParameterNumber"
+             files="Student*" />
+     <!-- DON'T CHECK MAGIC NUMBERS FOR SLIDE GENERATOR AS THERE'S A LOT -->
+  <suppress checks="MagicNumber"
+             files="tud[\\/]bp[\\/]group32[\\/]generator[\\/]" />
+</suppressions>
